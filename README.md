@@ -36,7 +36,22 @@ Also, this file contains an executable, "SketchCodeML.exe", that can directly ex
 
 The project boasts a user interface designed with a dark mode aesthetic, offering a visually appealing and minimalist display.
 #### Block
-###### gfl
+###### Input_Layer_Block:
+This block is initialised from the start as the first layer in the model and cannot be removed as it's crucial form model construction in keras. It has a fixed index equel to 0. 
+This bloc takes as input the shape of the input data formatted.
+Ex: An input data with shape (15,16,80) shoudl be enetred as :15,18,80.
+
+###### Flatten Bloc
+This block is represented as the flatten block inserted in the pipeline. The bloc hac an index indicator that can be changed.
+
+###### Dense Bloc
+Dense layer represents the dense layer in the pipeline. It take 'number of units' as input as well as an acitvation function. By default the activation function is set to 'relu'. There are different supported activation functions presented in the images.
+
+#### Buttons 
+###### Add-a-Flatten-layer
+###### Add-a-Dense-layer
+###### Reorder-the-layers
+###### Generator
 
 
 
