@@ -49,9 +49,13 @@ Dense layer represents the dense layer in the pipeline. It take 'number of units
 
 #### Buttons 
 ###### Add-a-Flatten-layer
+Adds a Flatten layer.
 ###### Add-a-Dense-layer
+Adds a Dense layer.
 ###### Reorder-the-layers
+After changing certain indexes and deleting certain frames. This button helps reorder the layers and diplay then in the right order.
 ###### Generator
+This button generates the final code.
 
 
 
