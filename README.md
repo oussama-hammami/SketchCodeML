@@ -63,8 +63,8 @@ This block is represented as the flatten block inserted in the pipeline. The blo
 Dense layer represents the dense layer in the pipeline. It take 'number of units' as input as well as an acitvation function. By default the activation function is set to 'relu'. There are different supported activation functions presented in the images.
 
 <p align="center">
-  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Dense_1.PNG" width = "200" height = "200">
-  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/dense_combobox.PNG" width = "200" height = "400">
+  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Dense.PNG" >
+
 </p>
 
 #### Buttons 
