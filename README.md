@@ -20,7 +20,9 @@ The app was developped with customtkinter.
 ## Requirements
 ```python
 pip install customtkinter
+```
 or
+```python
 python3 -m pip install customtkinter
 ```
 ## Demo:
