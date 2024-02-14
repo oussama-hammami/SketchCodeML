@@ -12,9 +12,9 @@ The app was developped with customtkinter.
         * [Dense Layer](#dense_layer)
         * [Flatten Layer](#flatten_layer)
     * [Buttons](#Buttons)
-        * [Add a Flatten layer](#gfl)
-        * [Generate Dense Layer](#dgs)
-        * [Reorder the layers](#rl)
+        * [Add a Flatten layer](#Add-a-Flatten-layer)
+        * [Add a Dense Layer](#Add-a-Dense-Layer)
+        * [Reorder the layers](#Reorder-the-layers)
         * [Generator](#generator)
 
 ## Requirements
@@ -32,8 +32,11 @@ python3 -m main.py
 ```
 Also, this file contains an executable, "SketchCodeML.exe", that can directly execute the project.
 
+## Interface:
 
-
+The project boasts a user interface designed with a dark mode aesthetic, offering a visually appealing and minimalist display.
+#### Block
+###### gfl
 
 
 
