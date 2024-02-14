@@ -37,41 +37,51 @@ Also, this file contains an executable, "SketchCodeML.exe", that can directly ex
 ## Interface:
 
 The project boasts a user interface designed with a dark mode aesthetic, offering a visually appealing and minimalist display.
+
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Interfac.PNG" width = "800" height = "800">
 </p>
+
 #### Block
 ###### Input_Layer_Block:
 This block is initialised from the start as the first layer in the model and cannot be removed as it's crucial form model construction in keras. It has a fixed index equel to 0. 
 This bloc takes as input the shape of the input data formatted.
 Ex: An input data with shape (15,16,80) shoudl be enetred as :15,18,80.
+
 <p align="center">
-  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Input.PNG">
+  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Input.PNG" >
 </p>
 
 ###### Flatten Bloc
 This block is represented as the flatten block inserted in the pipeline. The bloc hac an index indicator that can be changed.
+
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Flatten.PNG">
 </p>
 
 ###### Dense Bloc
 Dense layer represents the dense layer in the pipeline. It take 'number of units' as input as well as an acitvation function. By default the activation function is set to 'relu'. There are different supported activation functions presented in the images.
+
 <p align="center">
-  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Dense_1.PNG">
-  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/dense_combobox.PNG">
+  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Dense_1.PNG" width = "200" height = "200">
+  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/dense_combobox.PNG" width = "200" height = "400">
 </p>
 
 #### Buttons 
+
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Buttons.PNG">
 </p>
+
 ###### Add-a-Flatten-layer
 Adds a Flatten layer.
+
 ###### Add-a-Dense-layer
 Adds a Dense layer.
+
 ###### Reorder-the-layers
-After changing certain indexes and deleting certain frames. This button helps reorder the layers and diplay then in the right order.
+After changing certain indexes and deleting certain frames. This button helps reorder the layers and display then in the right order.
+
 ###### Generator
 This button generates the final code.
 
