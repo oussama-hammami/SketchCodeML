@@ -4,6 +4,11 @@ This repo contains the code to the application SketchCode ML.
 SketchCode ML is an app that helps newbies in machine learning through manipulating blocks. A combination of block will generate a certain keras code that can be exuvted later independently.
 The app was developped with customtkinter.
 
+<p align="center">
+  <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Logo.png">
+</p>
+
+
 * [Requirements](#requirements)
 * [Demo](#demo)
 * [Interface](#interface)
@@ -26,17 +31,16 @@ or
 python3 -m pip install customtkinter
 ```
 ## Demo:
-To run a demo of this project, you can run the main file in a python IDLE or run the following line in the terminal:
+To run a demo, you can either execute the main file using a Python IDE or enter the following command in the terminal:
 ```python
 python3 -m main.py
 ```
-Also, this file contains an executable, "SketchCodeML.exe", that can directly execute the project.
 
 
 
 ## Interface:
 
-The project boasts a user interface designed with a dark mode aesthetic, offering a visually appealing and minimalist display.
+The project features a user interface designed with a dark mode aesthetic, offering a visually appealing and minimalist display.
 
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Interfac.PNG" width = "800" height = "800">
@@ -44,23 +48,21 @@ The project boasts a user interface designed with a dark mode aesthetic, offerin
 
 #### Block
 ###### Input_Layer_Block:
-This block is initialised from the start as the first layer in the model and cannot be removed as it's crucial form model construction in keras. It has a fixed index equel to 0. 
-This bloc takes as input the shape of the input data formatted.
-Ex: An input data with shape (15,16,80) shoudl be enetred as :15,18,80.
+This block is initialized at the beginning as the initial layer in the Keras model and is essential for the model's construction, thus it cannot be removed. It is permanently assigned an index of 0. This block requires the shape of the input data to be specified. For instance, if the input data has a shape of (15, 16, 80), it should be entered as 15, 16, 80.
 
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Input.PNG" >
 </p>
 
 ###### Flatten Bloc
-This block is represented as the flatten block inserted in the pipeline. The bloc hac an index indicator that can be changed.
+This block functions as the 'flatten' block within the pipeline. Its index indicator is adjustable, allowing for flexible placement within the model structure.
 
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Flatten.PNG">
 </p>
 
 ###### Dense Bloc
-Dense layer represents the dense layer in the pipeline. It take 'number of units' as input as well as an acitvation function. By default the activation function is set to 'relu'. There are different supported activation functions presented in the images.
+The Dense layer in the pipeline signifies a dense neural network layer. It requires the 'number of units' as an input, along with an activation function. The default activation function is set to 'relu'. The model supports various other activation functions, which are detailed in the accompanying images.
 
 <p align="center">
   <img src="https://github.com/oussama-hammami/SketchCodeML/blob/main/img/Dense.PNG" >
